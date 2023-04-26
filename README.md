@@ -1,4 +1,4 @@
-# Blogging_System
+# Blogging System
 
 ## Applications
 * Blogs => manage articles (post, delete, edit, display)
