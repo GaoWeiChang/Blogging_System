@@ -11,6 +11,20 @@
 * Writer✍🏼 => post, remove, edit articles
 * Reader/ Visitor🤓 => read articles, able to register account. 
 
+## Database categories
+Column name|data type|meaning
+:-------------------------:|:-------------------------:|:-------------------------:
+ID(primary key)|IntegerField|ID of Article
+Name|CharField|Article name
+Description|TextField|Article description
+Content|TextField|Article content
+Writer|CharField|writer name
+Views|IntegerField|number for views
+image|ImageField|image
+Created|DateTimeField|Article wrote date
+Category_ID(Foreign key)|IntegerField|ID of category
+
+
 ## Screenshots
 
 Welcome page
@@ -36,3 +50,4 @@ Writer panel page (manage article)
 Writer panel page (write article)
 :-------------------------:
 ![image](https://user-images.githubusercontent.com/128176822/234561446-946b5b54-3695-4862-8367-f2d23ba21beb.png)
+
